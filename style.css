@@ -1,0 +1,260 @@
+
+
+body {
+    background-color: #1b1811; 
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .navbar {
+    background-color: #8c6d5c; 
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #371a00; 
+  }
+  
+  .navbar-brand:hover,
+  .nav-link:hover {
+    color: #ffd700; 
+  }
+  
+  .container {
+    margin-top: 80px; 
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-tec {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-roupas {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+  }
+  
+  .card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-title {
+    color: #4a3b2a; 
+    font-weight: bold;
+  }
+  
+  .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333; 
+}
+  
+  .btn-custom {
+    background-color: #7a5a4a; 
+    border: 1px solid #7a5a4a; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+  }
+  
+  .btn-custom:hover {
+    background-color: #6f4f3b; 
+    border-color: #6f4f3b; 
+  }
+  
+  .custom-margin-top {
+    margin-top: 80px; 
+  }
+  
+  .footer {
+    background-color: #8c6d5c; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: re;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .nav-link {
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .nav-link img {
+    width: 30px; 
+    height: auto;
+  }
+  
+  .nav-link .badge {
+    position: absolute;
+    top: 8px; 
+    right: 40px; 
+    border-radius: 10%;
+    padding: 5px 10px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    min-width: 30px; 
+    height: 15px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  
+  .card, .card-roupas, .card-tec {
+    flex: 1 1 calc(33.333% - 1rem); 
+    margin: 0.5rem; 
+  }
+  
+  
+  .card-img-top {
+    max-height: 180px; 
+    object-fit: cover; 
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    flex: 1; 
+  }
+  
+  .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .btn-custom {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #218838;
+  }
+  
+  
+  .card, .card-roupas, .card-tec {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover, .card-roupas:hover, .card-tec:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .row {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: -15px; 
+  }
+  
+  .col-md-4 {
+    flex: 1 1 33%; 
+    max-width: 33%; 
+    box-sizing: border-box; 
+    padding: 15px; 
+  }
+  
+  @media (max-width: 768px) {
+    .col-md-4 {
+      flex: 1 1 50%; 
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .col-md-4 {
+      flex: 1 1 100%; 
+      max-width: 100%;
+    }
+  }
+
+  
+  .custom-filter {
+    background-color: #8c6d5c; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 100px;
+  }
+  
+  .custom-filter h5 {
+    color: #ffffff; 
+    margin-bottom: 15px;
+  }
+  
+  .custom-filter .form-select {
+    background-color: #ffffff; 
+    color: #333; 
+    border: 1px solid #7a5a4a; 
+    border-radius: 5px; 
+  }
+  
+  .custom-filter .form-select:focus {
+    border-color: #6f4f3b; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1); 
+  }
+  
+  .custom-filter .btn-custom {
+    background-color: #7a5a4a;
+    border: 1px solid #7a5a4a; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .custom-filter .btn-custom:hover {
+    background-color: #6f4f3b; 
+    border-color: #6f4f3b; 
+  }
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.card, .card-roupas, .card-tec {
+  flex: 1 1 calc(33.333% - 1rem); 
+  margin: 0.5rem;
+}

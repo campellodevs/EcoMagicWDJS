@@ -43,3 +43,9 @@ Os produtos são carregados a partir de um arquivo JSON que simula uma API. Para
   "preco": 120.00,
   "imagem": "src/vestido.png"
 }
+
+
+## Integrantes:
+- Gabriel de Mello
+- Lucca Campello
+- Victório Bastelli
